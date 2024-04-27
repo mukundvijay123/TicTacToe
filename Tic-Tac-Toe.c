@@ -34,7 +34,7 @@ int main(){
 	init(cells);
 	while(1){
 		currentPlayer=playerGen(&Player);
-		//printf("It is %c's turn\n",playerToSym(currentPlayer));
+		printf("It is %c's turn\n",playerToSym(currentPlayer));
 		enterSymb(cells,currentPlayer);
 		display(cells);
 		//Checking for wins
